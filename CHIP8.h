@@ -1,5 +1,5 @@
 #ifndef _CHIP8_H_
-#define _CHIP8_H_
+    #define _CHIP8_H_
 #endif
 
 #include <iostream>
@@ -23,7 +23,7 @@ class CHIP8 {
         int soundTimer;                     // SOUND TIMEER 8 BIT
         int sp;                             // STACK POINTTER 8 BIT
         int instruction;                    // STORES CURRENT INSTRUCTION (16 BIT WIDE)
-        int * keyStates;
+            int * keyStates;
         int x;
         int y;
         int coordIndex;
